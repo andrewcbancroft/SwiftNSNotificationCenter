@@ -168,9 +168,11 @@
 				TargetAttributes = {
 					F2CAEC4B19DE4AA1002F7E04 = {
 						CreatedOnToolsVersion = 6.0;
+						LastSwiftMigration = 0800;
 					};
 					F2CAEC6019DE4AA2002F7E04 = {
 						CreatedOnToolsVersion = 6.0;
+						LastSwiftMigration = 0800;
 						TestTargetID = F2CAEC4B19DE4AA1002F7E04;
 					};
 				};
@@ -350,6 +352,7 @@
 				INFOPLIST_FILE = SwiftNSNotificationCenter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -360,6 +363,7 @@
 				INFOPLIST_FILE = SwiftNSNotificationCenter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -378,6 +382,7 @@
 				INFOPLIST_FILE = SwiftNSNotificationCenterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftNSNotificationCenter.app/SwiftNSNotificationCenter";
 			};
 			name = Debug;
@@ -393,6 +398,7 @@
 				INFOPLIST_FILE = SwiftNSNotificationCenterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftNSNotificationCenter.app/SwiftNSNotificationCenter";
 			};
 			name = Release;
