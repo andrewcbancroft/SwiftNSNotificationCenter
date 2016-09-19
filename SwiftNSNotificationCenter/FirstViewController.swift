@@ -8,7 +8,7 @@ class FirstViewController: UIViewController {
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		NSNotificationCenter.defaultCenter().addObserver(self, selector: "updateNotificationSentLabel", name: mySpecialNotificationKey, object: nil)
+		NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(FirstViewController.updateNotificationSentLabel), name: mySpecialNotificationKey, object: nil)
 	}
 	
 	@IBAction func notify() {
